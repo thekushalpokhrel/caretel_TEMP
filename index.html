@@ -1,83 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Coming Soon - CareTel Website</title>
-        <link rel="icon" type="image/x-icon" href="https://loading.caretel.com.au/assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="https://loading.caretel.com.au/css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Background Video-->
-        <video class="bg-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"><source src="https://loading.caretel.com.au/assets/mp4/web_vid.mp4" type="video/mp4" /></video>
-        <!-- Masthead-->
-        <div class="masthead">
-            <div class="masthead-content text-white">
-                <div class="container-fluid px-4 px-lg-0">
-                    <h1 class="fst-italic lh-1 mb-4">CareTel Website is Coming Soon!! Call Us Now if Urgent Issues at 0281979673, and we will be able to assist you swiftly.</h1>
-                    <p class="mb-5">We're working hard to finish the development of our site. However the services don't stop, click to notify below for latest updates and newsletter from us. We will keep you posted!!</p>
-                    <!-- * * * * * * * * * * * * * * *-->
-                    <!-- * * SB Forms Contact Form * *-->
-                    <!-- * * * * * * * * * * * * * * *-->
-                    <!-- This form is pre-integrated with SB Forms.-->
-                    <!-- To make this form functional, sign up at-->
-                    <!-- https://startbootstrap.com/solution/contact-forms-->
-                    <!-- to get an API token!-->
-                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                        <!-- Email address input-->
-                        <div class="row input-group-newsletter">
-                            <div class="col"><input class="form-control" id="email" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                            <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
-                        </div>
-                        <div class="invalid-feedback mt-2" data-sb-feedback="email:required">An email is required.</div>
-                        <div class="invalid-feedback mt-2" data-sb-feedback="email:email">Email is not valid.</div>
-                        <!-- Submit success message-->
-                        <!---->
-                        <!-- This is what your users will see when the form-->
-                        <!-- has successfully submitted-->
-                        <div class="d-none" id="submitSuccessMessage">
-                            <div class="text-center mb-3 mt-2">
-                                <div class="fw-bolder">Form submission successful!</div>
-                                To activate this form, sign up at
-                                <br />
-                                <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                            </div>
-                        </div>
-                        <!-- Submit error message-->
-                        <!---->
-                        <!-- This is what your users will see when there is-->
-                        <!-- an error submitting the form-->
-                        <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <!-- Social Icons-->
-        <!-- For more icon options, visit https://fontawesome.com/icons?d=gallery&p=2&s=brands-->
-        <div class="social-icons">
-            <div class="d-flex flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0">
-                <a class="btn btn-dark m-3" href="https://au.linkedin.com/company/caretel-pty--ltd-"><i class="fab fa-linkedin"></i></a>
-                <a class="btn btn-dark m-3" href="https://www.facebook.com/CareTel-191757087599550"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-dark m-3" href="https://www.instagram.com/caretel_au/"><i class="fab fa-instagram"></i></a>
-            </div>
-        </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src=""></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+<html class="js">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Coming Soon</title>
+
+		<!-- Stylesheets -->
+
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/ionicons.min.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- Google Fonts -->
+
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic|Cinzel:400,700,900' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+		<div id="preloader"></div>
+
+		<section id="video-wrap">
+			<div id="video"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="logo text-center wow fadeInDown">
+							<a href="#"><img src="assets/logo.png" alt="Layla"></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-7 wow fadeInLeft" style="z-index: 9999;">
+						<div class="headline-wrap">
+							<h1 class="headline">
+							We Are Coming With Something
+							<br>
+							<span class="quotes">Amazing</span>
+							<span class="quotes">Beautiful</span>
+							<span class="quotes">Superb</span>
+							<span class="quotes">Terrific</span>
+							<span class="quotes">Awesome</span>
+							<span class="quotes">Amazing</span>
+							<span class="quotes">Amazing</span>
+							<br>
+							
+							<!-- SUCCESS OR ERROR MESSAGES -->
+            				<div id="subscription-response"></div>
+						</div>
+					</div>
+					<div class="col-md-5  wow fadeInRight">
+						<div class="clock row">
+					        <div class="col-xs-3 col-sm-3 col-md-6">
+					            <div class="countdown-time-value clock-item clock-days">
+					            	<div class="wrap">
+						                <div class="inner">
+						                    <div id="canvas-days" class="clock-canvas"></div>
+
+						                    <div class="text">
+						                        <p class="val">0</p>
+						                        <p class="type-days type-time">DAYS</p>
+						                    </div><!-- /.text -->
+						                </div><!-- /.inner -->
+						            </div><!-- /.wrap -->
+					            </div>
+					        </div><!-- /.clock-item -->
+
+					        <div class="col-xs-3 col-sm-3 col-md-6">
+					            <div class="clock-item clock-hours countdown-time-value">
+					            	<div class="wrap">
+						                <div class="inner">
+						                    <div id="canvas-hours" class="clock-canvas"></div>
+
+						                    <div class="text">
+						                        <p class="val">0</p>
+						                        <p class="type-hours type-time">HOURS</p>
+						                    </div><!-- /.text -->
+						                </div><!-- /.inner -->
+						            </div><!-- /.wrap -->
+					            </div>
+					        </div><!-- /.clock-item -->
+
+					        <div class="col-xs-3 col-sm-3 col-md-6">
+					            <div class="clock-item clock-minutes countdown-time-value">
+					            	<div class="wrap">
+						                <div class="inner">
+						                    <div id="canvas-minutes" class="clock-canvas"></div>
+
+						                    <div class="text">
+						                        <p class="val">0</p>
+						                        <p class="type-minutes type-time">MINUTES</p>
+						                    </div><!-- /.text -->
+						                </div><!-- /.inner -->
+						            </div><!-- /.wrap -->
+					            </div>
+					        </div><!-- /.clock-item -->
+
+					        <div class="col-xs-3 col-sm-3 col-md-6">
+					        	<div class="clock-item clock-seconds countdown-time-value">
+					        		<div class="wrap">
+						                <div class="inner">
+						                    <div id="canvas-seconds" class="clock-canvas"></div>
+
+						                    <div class="text">
+						                        <p class="val">0</p>
+						                        <p class="type-seconds type-time">SECONDS</p>
+						                    </div><!-- /.text -->
+						                </div><!-- /.inner -->
+						            </div><!-- /.wrap -->
+					        	</div>
+					        </div><!-- /.clock-item -->
+					    </div>
+					</div>
+				</div>
+			</div>
+
+			<div class="arrow-down text-center">
+				<a href="#nav-menu" class="wow bounce" data-wow-duration="4s" data-wow-delay="1s" data-wow-iteration="1000"><i class="ion-chevron-down"></i></a>
+			</div>
+		</section>
+
+		
+
+		
+
+		
+
+		<section id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-8">
+						<p class="copyright text-left">Copyright © 2022 Your Website Link. All rights reserved.</p>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+
+
+
+		<script src="js/modernizr.custom.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.videoBG.js"></script>
+		<script src="js/jquery.sticky-kit.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/kinetic.js"></script>
+		<script src="js/jquery.final-countdown.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
 </html>

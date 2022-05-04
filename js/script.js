@@ -19,10 +19,10 @@ $("#video-wrap").css({
 });
 
 $('#video').videoBG({
-    mp4:'assets/bg.mp4',
-    ogv:'assets/bg.ogv',
-    webm:'assets/bg.webm',
-    poster:'assets/poster.jpg',
+    mp4:'https://github.com/thekushalpokhrel/caretel_TEMP/blob/main/assets/bg.mp4',
+    ogv:'https://github.com/thekushalpokhrel/caretel_TEMP/blob/main/assets/bg.ogv',
+    webm:'https://github.com/thekushalpokhrel/caretel_TEMP/blob/main/assets/bg.webm',
+    poster:'https://gitcdn.link/cdn/thekushalpokhrel/caretel_TEMP/main/assets/poster.jpg',
     scale:true,
     zIndex:0,
     height: vidHeight
